@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhotoBooth</string>
+    <string name="portada">portada</string>
+    <string name="calendar">calendar</string>
+    <string name="background">background</string>
+    <string name="your_picture">your picture</string>
+    <string name="polaroid_frame">polaroid frame</string>
+    <string name="name">name</string>
+    <string name="camera">camera</string>
+    <string name="gallery">gallery</string>
+</resources>

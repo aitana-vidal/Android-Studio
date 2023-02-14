@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFBE6"
+    app:layoutDescription="@xml/activity_card_scene"
+    tools:context=".Card">
+
+    <ImageView
+        android:id="@+id/planta"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:contentDescription="@string/o"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondodefecto"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/textview"
+        android:textColor="#509657"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planta" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="317dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="310dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hgvhgvhgjjgghkhhhhhhhhhhvgvhk_ihhuhuiiuhuhuhuhuuihuihuihuihiioouioijiooijjoijijijoiijoijiijojoijoijijio_vgvghjhgvghhjbuhgvuhjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfk_hjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfk_hjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfk_hjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfk_hjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfk_hjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfkhjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfkhjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfkhjbuyhnjbuybynhyuhhjnhyubnijhybunhubybyuinjubyinjyubbibyiubynuiiiihugitygvy_hbhbkhjknjnjjnjkjkkbkbkjjbbjkkbjbjkkbjbjkjbkkkgfk_mkmfldmk_mkdsksdmkksklmkmds_dlskklsksldkdl_ddsojijdsijdsklsd_jdsnjjsndjksdjksd_oidsidsjidsk_noesjdijjoidsjiisd_iojesdjifdjioif_ijoeisjoddjjioojsie_jioejijijifwjijif_ioefjjifjiewjoi_jweijijoijirijew_ijewjiojioewiojfjio_ijewfijofjioijewi_iwejofjioejoijeijoew_ojiejfiijfjwjf_jifewjifewjifjie_ewfjiijwjifi_jfewifioewfefjwijijf_jiewfijofjioijofwjifjwi_jiwejifjifwjoi_jioewfjijifji_jiwejifjiijof_ijewjifjijifejiewjifijo_dkkfjkjfs_fsg_regefdzsjkjksdkjjkssjkdskj_jkdskksflmamlkmklkmlemklsmkl_rjkefdrkjnernjnjerfnjfrejkfjk_j_fre_jkfea_kjea_jk_jkf_aej_kfae_jkfe_ja_oaj_joeo_of_j_erj_jofg_ge"
+                    android:textColor="#447349" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
