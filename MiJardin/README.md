@@ -10,4 +10,4 @@ Como este proyecto estaba enfocado en la propia interfaz, al añadir o al elimin
 
 <div style="width:60px ; height:60px">
 ![alt text](https://github.com/aitana-vidal/Android-Studio/blob/main/MiJardin/Screenshots/portada_mijardin.jpg)
-</div>
+<div>
