@@ -7,3 +7,5 @@ mostrar la información con o sin la foto.
 
 Al hacer una pulsación larga se elimina la CardView de la vista del usuario.
 Como este proyecto estaba enfocado en la propia interfaz, al añadir o al eliminar una CardView no se produce ningún cambio en los datos almacenados.
+
+![alt text](https://github.com/aitana-vidal/Android-Studio/blob/main/MiJardin/Screenshots/portada_mijardin.jpg)
